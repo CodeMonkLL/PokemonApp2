@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\PrivatprojekteGit\\PokemonApp2\\PokemonApp2-Backend\\PokemonApp2-Backend.csproj": {}
+    "c:\\PrivatprojekteGit\\PokemonApp2\\PokemonApp2-Backend\\PokemonApp2-Backend.csproj": {}
   },
   "projects": {
-    "C:\\PrivatprojekteGit\\PokemonApp2\\PokemonApp2-Backend\\PokemonApp2-Backend.csproj": {
+    "c:\\PrivatprojekteGit\\PokemonApp2\\PokemonApp2-Backend\\PokemonApp2-Backend.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\PrivatprojekteGit\\PokemonApp2\\PokemonApp2-Backend\\PokemonApp2-Backend.csproj",
+        "projectUniqueName": "c:\\PrivatprojekteGit\\PokemonApp2\\PokemonApp2-Backend\\PokemonApp2-Backend.csproj",
         "projectName": "PokemonApp2-Backend",
-        "projectPath": "C:\\PrivatprojekteGit\\PokemonApp2\\PokemonApp2-Backend\\PokemonApp2-Backend.csproj",
+        "projectPath": "c:\\PrivatprojekteGit\\PokemonApp2\\PokemonApp2-Backend\\PokemonApp2-Backend.csproj",
         "packagesPath": "C:\\Users\\Lukas.Luemers\\.nuget\\packages\\",
-        "outputPath": "C:\\PrivatprojekteGit\\PokemonApp2\\PokemonApp2-Backend\\obj\\",
+        "outputPath": "c:\\PrivatprojekteGit\\PokemonApp2\\PokemonApp2-Backend\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -53,6 +53,10 @@
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
               "version": "[9.0.1, )"
+            },
+            "Scalar.AspNetCore": {
+              "target": "Package",
+              "version": "[2.0.*, )"
             }
           },
           "imports": [
