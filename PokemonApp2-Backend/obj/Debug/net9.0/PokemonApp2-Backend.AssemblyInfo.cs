@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PokemonApp2-Backend")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8e3e0dbb2dcf3f59b885d88aa3fd62f91059646f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f616d8c4342140db66f7a0626352ec1c964bbaf8")]
 [assembly: System.Reflection.AssemblyProductAttribute("PokemonApp2-Backend")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PokemonApp2-Backend")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
