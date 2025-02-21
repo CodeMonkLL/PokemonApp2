@@ -23,3 +23,4 @@ protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
 }
 // DbContext ist eine zentrale Klasse in Entity Framework Core (EF Core), die als Brücke zwischen deiner C#-Anwendung und der Datenbank dient. 
 // Sie verwaltet die Verbindung zur Datenbank, das Laden und Speichern von Daten sowie die Abbildung deiner C#-Modelle auf Datenbanktabellen
+//DbSet<T> ist eine Sammlung von Entitäten eines bestimmten Typs, z. B. Pokemons. Diese Sammlung stellt eine Tabelle in der Datenbank dar.
