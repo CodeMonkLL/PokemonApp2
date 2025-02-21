@@ -1,7 +1,9 @@
+using System.ComponentModel.DataAnnotations;
 namespace PokemonApp2.Models
 {
 public class Pokemon
     {
+        [Key]
         public int Id { get; set; }  // Primärschlüssel
         public required string Name { get; set; }
         public required string Type { get; set; }

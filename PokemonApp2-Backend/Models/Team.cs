@@ -1,6 +1,8 @@
+using System.ComponentModel.DataAnnotations;
 namespace PokemonApp2.Models
 {
     public class UserTeam{
+        [Key]
         public int ID {get; set;}
 
         public int? Slot1 {get; set;}
