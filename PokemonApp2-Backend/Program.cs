@@ -1,4 +1,6 @@
 using Scalar.AspNetCore;
+using PokemonApp2.Data;
+using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -12,6 +14,10 @@ builder.Services.AddControllers();
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
+
+// Füge DbContext hinzu
+builder.Services.AddDbContext<PokemonDbContext>(options =>
+    options.UseSqlite("Data Source=pokemon.db"));
 
 app.MapOpenApi();
 app.MapScalarApiReference();
