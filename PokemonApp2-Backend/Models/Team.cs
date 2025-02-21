@@ -1,4 +1,4 @@
-namespace PokemonApi.Models
+namespace PokemonApp2.Models
 {
     public class UserTeam{
         public int ID {get; set;}

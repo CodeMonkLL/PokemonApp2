@@ -836,7 +836,7 @@
           "buildTransitive/Mono.TextTemplating.targets": {}
         }
       },
-      "Scalar.AspNetCore/2.0.15": {
+      "Scalar.AspNetCore/2.0.16": {
         "type": "package",
         "compile": {
           "lib/net9.0/Scalar.AspNetCore.dll": {
@@ -2977,10 +2977,10 @@
         "readme.md"
       ]
     },
-    "Scalar.AspNetCore/2.0.15": {
-      "sha512": "0asKAhtw+rowRBw961+tpf3GKvMBv/ihitAKsr2skDawP8FGiOqtiM8V8hMwkUd5+qc4jIz6ggN+olIyO4y6nw==",
+    "Scalar.AspNetCore/2.0.16": {
+      "sha512": "E2WdQ2KzSdpZNxb35CaEJSo5ysf2TKGFS5l46mD7U0tp4eDxoW4Ad3WX4/GrzpfcsL4xgAH0r2Zih+QxAJ0UWQ==",
       "type": "package",
-      "path": "scalar.aspnetcore/2.0.15",
+      "path": "scalar.aspnetcore/2.0.16",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -2990,7 +2990,7 @@
         "lib/net8.0/Scalar.AspNetCore.xml",
         "lib/net9.0/Scalar.AspNetCore.dll",
         "lib/net9.0/Scalar.AspNetCore.xml",
-        "scalar.aspnetcore.2.0.15.nupkg.sha512",
+        "scalar.aspnetcore.2.0.16.nupkg.sha512",
         "scalar.aspnetcore.nuspec"
       ]
     },
