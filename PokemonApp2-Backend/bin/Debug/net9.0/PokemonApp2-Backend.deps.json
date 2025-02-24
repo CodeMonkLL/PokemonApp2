@@ -13,7 +13,7 @@
           "Microsoft.EntityFrameworkCore.Sqlite": "9.0.2",
           "Microsoft.EntityFrameworkCore.Tools": "9.0.2",
           "MongoDB.Driver": "3.2.0",
-          "Scalar.AspNetCore": "2.0.16"
+          "Scalar.AspNetCore": "2.0.18"
         },
         "runtime": {
           "PokemonApp2-Backend.dll": {}
@@ -558,11 +558,11 @@
           }
         }
       },
-      "Scalar.AspNetCore/2.0.16": {
+      "Scalar.AspNetCore/2.0.18": {
         "runtime": {
           "lib/net9.0/Scalar.AspNetCore.dll": {
-            "assemblyVersion": "2.0.16.0",
-            "fileVersion": "2.0.16.0"
+            "assemblyVersion": "2.0.18.0",
+            "fileVersion": "2.0.18.0"
           }
         }
       },
@@ -1087,12 +1087,12 @@
       "path": "mono.texttemplating/3.0.0",
       "hashPath": "mono.texttemplating.3.0.0.nupkg.sha512"
     },
-    "Scalar.AspNetCore/2.0.16": {
+    "Scalar.AspNetCore/2.0.18": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-E2WdQ2KzSdpZNxb35CaEJSo5ysf2TKGFS5l46mD7U0tp4eDxoW4Ad3WX4/GrzpfcsL4xgAH0r2Zih+QxAJ0UWQ==",
-      "path": "scalar.aspnetcore/2.0.16",
-      "hashPath": "scalar.aspnetcore.2.0.16.nupkg.sha512"
+      "sha512": "sha512-nS8Sw6wRO1A/dARn3q9R6znIBfddJcmAczI5uMROBGWkO2KG/ad/Ld+UeUePTxGr1+6humJSOxI7An+q4q3oGA==",
+      "path": "scalar.aspnetcore/2.0.18",
+      "hashPath": "scalar.aspnetcore.2.0.18.nupkg.sha512"
     },
     "SharpCompress/0.30.1": {
       "type": "package",

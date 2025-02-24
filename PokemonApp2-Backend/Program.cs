@@ -10,14 +10,14 @@ builder.Services.AddHttpClient();
 // Füge die Controller-Dienste hinzu
 builder.Services.AddControllers();
 
+builder.Services.AddDbContext<PokemonDbContext>(options =>
+    options.UseSqlite("Data Source=pokemon.db"));
 
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
 
-// Füge DbContext hinzu
-builder.Services.AddDbContext<PokemonDbContext>(options =>
-    options.UseSqlite("Data Source=pokemon.db"));
+
 
 app.MapOpenApi();
 app.MapScalarApiReference();
